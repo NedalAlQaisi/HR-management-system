@@ -10,7 +10,7 @@ function Employee(employeeID, fullName, department, level) {
     this.level = level;
     this.salary = 0;
     this.salaryAfterTax = 0;
-    this.image = `./images/${this.employeeID}.jpeg`;
+    this.image = image;
     allEmployees.push(this);
 }
 
