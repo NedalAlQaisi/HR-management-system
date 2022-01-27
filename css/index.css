@@ -88,3 +88,11 @@ footer {
     clear: both;
     display: table;
 }
+
+#divEmployee {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
