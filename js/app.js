@@ -18,14 +18,14 @@ function Employee(employeeID, fullName, department, level, img) {
 
 //The data to be stored
 
-let Emp1 = new Employee(1000, "Nedal", "Administration", "Senior", 'images/Nedal.jpg');
-let Emp2 = new Employee(1001, "Ghazi Samer", "Administration", "Senior", 'images/Ghazi.jpg');
-let Emp3 = new Employee(1002, "Lana Ali", "Finance", "Senior", 'images/Lana.jpg');
-let Emp4 = new Employee(1003, "Tamara Ayoub", "Marketing", "Senior", 'images/Tamara.jpg');
-let Emp5 = new Employee(1004, "Safi Walid", "Administration", "Mid-Senior", 'images/Safi.jpg');
-let Emp6 = new Employee(1005, "Omar Zaid", "Development", "Senior", 'images/Omar.jpg');
-let Emp7 = new Employee(1006, "Rana Saleh", "Development", "Junior", 'images/Rana.jpg');
-let Emp8 = new Employee(1007, "Hadi Ahmad", "Finance", "Mid-Senior", 'images/Hadi.jpg');
+let Nedal = new Employee(1000, "Nedal", "Administration", "Senior", 'images/Nedal.jpg');
+let Ghazi = new Employee(1001, "Ghazi Samer", "Administration", "Senior", 'images/Ghazi.jpg');
+let Lana = new Employee(1002, "Lana Ali", "Finance", "Senior", 'images/Lana.jpg');
+let Tamara = new Employee(1003, "Tamara Ayoub", "Marketing", "Senior", 'images/Tamara.jpg');
+let Safi = new Employee(1004, "Safi Walid", "Administration", "Mid-Senior", 'images/Safi.jpg');
+let Omar = new Employee(1005, "Omar Zaid", "Development", "Senior", 'images/Omar.jpg');
+let Rana = new Employee(1006, "Rana Saleh", "Development", "Junior", 'images/Rana.jpg');
+let Hadi = new Employee(1007, "Hadi Ahmad", "Finance", "Mid-Senior", 'images/Hadi.jpg');
 
 
 form.addEventListener("submit", addEmbloyee)
